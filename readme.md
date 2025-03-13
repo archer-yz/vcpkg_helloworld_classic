@@ -9,7 +9,7 @@ This project demonstrates how to use vcpkg installed static and dynamic librarie
 To install dynamic packages, use the following command. It will install both *release* and *debug*
 libraries.
 
-`vcpck packgename:x64-windows --clean-after-build`
+`vcpkg packgename:x64-windows --clean-after-build`
 
 
 ### Static Packages
@@ -17,7 +17,7 @@ libraries.
 To install static packages, use the following command. It will install both *release* and *debug*
 libraries.
 
-`vcpck packgename:x64-windows-static --clean-after-build`
+`vcpkg packgename:x64-windows-static --clean-after-build`
 
 
 ## CMakePresets.json
